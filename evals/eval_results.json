@@ -1,0 +1,168 @@
+{
+  "faithfulness": 0.6633,
+  "answer_relevance": 0.6633,
+  "context_precision": 1.0,
+  "citation_coverage": 1.0,
+  "examples": [
+    {
+      "question": "What does BERT stand for?",
+      "answer": "I could not find that in the provided documents.",
+      "faithfulness": 0.11061572283506393,
+      "answer_relevance": 0.11061572283506393,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What type of architecture is BERT based on?",
+      "answer": "BERT’s model architecture is a multi-layer bidirectional Transformer encoder based on the original implementation described in Vaswani et al . (2017) .",
+      "faithfulness": 0.8411332368850708,
+      "answer_relevance": 0.8411332368850708,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What are the two pre-training tasks in BERT?",
+      "answer": "I could not find that in the provided documents.",
+      "faithfulness": 0.08427739143371582,
+      "answer_relevance": 0.08427739143371582,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What percentage of tokens are selected for masking?",
+      "answer": "We mask 15% of all WordPiece tokens in each sequence at random .",
+      "faithfulness": 0.6155914068222046,
+      "answer_relevance": 0.6155914068222046,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What token is used in masked language modeling?",
+      "answer": "The token used in masked language modeling is the [MASK] token, which is replaced 80% of the time when a token is chosen for prediction .",
+      "faithfulness": 0.9271706938743591,
+      "answer_relevance": 0.9271706938743591,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "Is BERT bidirectional or unidirectional?",
+      "answer": "BERT uses masked language models to enable pre-trained deep bidirectional representations .",
+      "faithfulness": 0.688572883605957,
+      "answer_relevance": 0.688572883605957,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What type of tasks can BERT be applied to?",
+      "answer": "BERT can be applied to various natural language processing tasks, including sentence-level tasks such as natural language inference and paraphrasing, as well as token-level tasks such as named entity recognition and question answering .",
+      "faithfulness": 0.8958674073219299,
+      "answer_relevance": 0.8958674073219299,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What is the purpose of pre-training in BERT?",
+      "answer": "I could not find that in the provided documents.",
+      "faithfulness": 0.053400687873363495,
+      "answer_relevance": 0.053400687873363495,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What dataset type is used for BERT pre-training?",
+      "answer": "I could not find that in the provided documents.",
+      "faithfulness": 0.07931676506996155,
+      "answer_relevance": 0.07931676506996155,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What is the goal of masked language modeling?",
+      "answer": "The goal of masked language modeling is to predict the original vocabulary id of the masked word based only on its context . This enables the representation to fuse the left and the right context, allowing for pre-training a deep bidirectional Transformer .",
+      "faithfulness": 0.8013848066329956,
+      "answer_relevance": 0.8013848066329956,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "Why is BERT considered bidirectional?",
+      "answer": "BERT is considered bidirectional because it uses masked language models to enable pre-trained deep bidirectional representations, unlike unidirectional language models for pre-training .",
+      "faithfulness": 0.7740796804428101,
+      "answer_relevance": 0.7740796804428101,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What is the purpose of next sentence prediction?",
+      "answer": "The purpose of next sentence prediction is to train a model that understands sentence relationships, which is not directly captured by language modeling . Many important downstream tasks such as Question Answering (QA) and Natural Language Inference (NLI) are based on understanding the relationship between two sentences .",
+      "faithfulness": 0.7434476613998413,
+      "answer_relevance": 0.7434476613998413,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What advantage does BERT have over unidirectional models?",
+      "answer": "BERT allows the same pre-trained model to successfully tackle a broad set of NLP tasks, generalizing findings to deep bidirectional architectures .",
+      "faithfulness": 0.6256943941116333,
+      "answer_relevance": 0.6256943941116333,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "How does pre-training help downstream tasks?",
+      "answer": "The task-specific models can benefit from the larger, more expressive pre-trained representations even when downstream task data is very small .",
+      "faithfulness": 0.7327918410301208,
+      "answer_relevance": 0.7327918410301208,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What kind of tasks benefit from BERT fine-tuning?",
+      "answer": "BERT fine-tuning benefits tasks involving single text or text pairs, such as paraphrasing, entailment, and question answering .",
+      "faithfulness": 0.8683558702468872,
+      "answer_relevance": 0.8683558702468872,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What does fine-tuning mean in BERT?",
+      "answer": "Fine-tuning is straightforward since the self-attention mechanism in the Transformer allows BERT to model many downstream tasks—whether they involve single text or text pairs—by swapping out the appropriate inputs and outputs . For each task, we simply plug in the task-specific inputs and outputs into BERT and fine-tune all the parameters end-to-end .",
+      "faithfulness": 0.7503865957260132,
+      "answer_relevance": 0.7503865957260132,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "Why is BERT effective for low-resource tasks?",
+      "answer": "BERT is effective for low-resource tasks because recent empirical improvements due to transfer learning with language models have demonstrated that rich, unsupervised pre-training is an integral part of many language understanding systems .",
+      "faithfulness": 0.7917454242706299,
+      "answer_relevance": 0.7917454242706299,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What does NSP stand for?",
+      "answer": "NSP stands for Next Sentence Prediction .",
+      "faithfulness": 1.0000001192092896,
+      "answer_relevance": 1.0000001192092896,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What does MLM stand for?",
+      "answer": "MLM stands for masked language model .",
+      "faithfulness": 0.9850963950157166,
+      "answer_relevance": 0.9850963950157166,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    },
+    {
+      "question": "What is the input unit used in BERT tokenization?",
+      "answer": "The input unit used in BERT tokenization is a token sequence that can represent both a single sentence and a pair of sentences .",
+      "faithfulness": 0.897430419921875,
+      "answer_relevance": 0.897430419921875,
+      "context_precision": 1.0,
+      "citation_coverage": 1.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{"question":"What does BERT stand for?","ground_truth":"BERT stands for Bidirectional Encoder Representations from Transformers."}
+{"question":"What type of architecture is BERT based on?","ground_truth":"BERT is based on a Transformer encoder architecture."}
+{"question":"What are the two pre-training tasks in BERT?","ground_truth":"The two pre-training tasks in BERT are Masked Language Modeling and Next Sentence Prediction."}
+{"question":"What percentage of tokens are selected for masking?","ground_truth":"In BERT, 15% of tokens are selected for masking during pre-training."}
+{"question":"What token is used in masked language modeling?","ground_truth":"The [MASK] token is used in masked language modeling."}
+{"question":"Is BERT bidirectional or unidirectional?","ground_truth":"BERT is a bidirectional model."}
+{"question":"What type of tasks can BERT be applied to?","ground_truth":"BERT can be applied to sentence-level and token-level NLP tasks."}
+{"question":"What is the purpose of pre-training in BERT?","ground_truth":"The purpose of pre-training in BERT is to learn general language representations."}
+{"question":"What dataset type is used for BERT pre-training?","ground_truth":"BERT is pre-trained on large unlabeled text corpora."}
+{"question":"What is the goal of masked language modeling?","ground_truth":"The goal of masked language modeling is to predict masked tokens using surrounding context."}
+{"question":"Why is BERT considered bidirectional?","ground_truth":"BERT is considered bidirectional because it uses both left and right context simultaneously."}
+{"question":"What is the purpose of next sentence prediction?","ground_truth":"The purpose of next sentence prediction is to determine whether two sentences are consecutive."}
+{"question":"What advantage does BERT have over unidirectional models?","ground_truth":"BERT has the advantage of using full bidirectional context instead of a single direction."}
+{"question":"How does pre-training help downstream tasks?","ground_truth":"Pre-training helps downstream tasks by providing reusable language representations."}
+{"question":"What kind of tasks benefit from BERT fine-tuning?","ground_truth":"Multiple NLP tasks such as classification and question answering benefit from BERT fine-tuning."}
+{"question":"What does fine-tuning mean in BERT?","ground_truth":"Fine-tuning in BERT means adapting the pre-trained model to a specific task."}
+{"question":"Why is BERT effective for low-resource tasks?","ground_truth":"BERT is effective for low-resource tasks because it leverages pre-trained knowledge."}
+{"question":"What does NSP stand for?","ground_truth":"NSP stands for Next Sentence Prediction."}
+{"question":"What does MLM stand for?","ground_truth":"MLM stands for Masked Language Modeling."}
+{"question":"What is the input unit used in BERT tokenization?","ground_truth":"The input unit used in BERT tokenization is WordPiece tokens."}
