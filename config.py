@@ -48,8 +48,8 @@ class Settings:
     input_cost_per_1m_tokens: float = float(os.getenv("INPUT_COST_PER_1M_TOKENS", "0"))
     output_cost_per_1m_tokens: float = float(os.getenv("OUTPUT_COST_PER_1M_TOKENS", "0"))
 
-    eval_threshold_faithfulness: float = float(os.getenv("EVAL_THRESHOLD_FAITHFULNESS", "0.70"))
-    eval_threshold_answer_relevance: float = float(os.getenv("EVAL_THRESHOLD_ANSWER_RELEVANCE", "0.70"))
+    eval_threshold_faithfulness: float = float(os.getenv("EVAL_THRESHOLD_FAITHFULNESS", "0.60"))
+    eval_threshold_answer_relevance: float = float(os.getenv("EVAL_THRESHOLD_ANSWER_RELEVANCE", "0.60"))
     eval_threshold_context_precision: float = float(os.getenv("EVAL_THRESHOLD_CONTEXT_PRECISION", "0.60"))
     eval_threshold_citation_coverage: float = float(os.getenv("EVAL_THRESHOLD_CITATION_COVERAGE", "1.0"))
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from statistics import fmean
+import sys
 from typing import Dict, List
 
 from dotenv import load_dotenv
@@ -108,9 +109,10 @@ def enforce_thresholds(summary: Dict) -> None:
     ]
 
     if failed:
-        print("\n❌ CI regression gate failed:", "; ".join(failed))
+        print("\n[FAIL] CI regression gate failed:", "; ".join(failed))
+        sys.exit(1)
     else:
-        print("\n✅ CI gate passed.")
+        print("\n[PASS] CI gate passed.")
 
 if __name__ == "__main__":
     evaluate()
